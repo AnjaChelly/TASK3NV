@@ -1,0 +1,77 @@
+
+body{ background: linear-gradient(90deg,#71b7e6  ,#9b59b6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#page{  width: 40vw;
+height: 75vh;
+background-color: white;
+border-radius: 3px;
+
+}
+
+.titre{ text-align: center;
+font-family: 'Times New Roman', Times, serif;
+padding-top:  20px;}
+
+.f1 {  color:grey;
+    padding-top:0px;}
+
+.formulaire{ display: flex;
+justify-content: center;
+text-align: left;
+flex-direction: column;}
+
+.formulaire input{
+     border:solid 2px rgb(112, 109, 109);
+     font-size: 15px;
+    color:rgb(112, 109, 109);
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+
+}
+.formulaire label{  font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.pos{ 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom:20px;
+    margin-top: 20px;
+   
+    }
+
+.pos input{ 
+    border:solid 2px rgb(112, 109, 109);
+    font-size: 15px;
+    width: 270px;
+   color:rgb(112, 109, 109);
+   border-radius: 3px;
+
+}
+
+.pos label{  font-weight: bold;
+} 
+
+
+.sub { background: linear-gradient(90deg,#71b7e6  ,#9b59b6);
+    width: 565px;
+    height: 30px;
+    border-radius: 3px;
+    margin: 20px;
+    border: none;
+    color: white;
+   }
+
+
+
+

@@ -1,0 +1,33 @@
+body{ background: linear-gradient(90deg,#71b7e6  ,#9b59b6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+ #page{  width: 40vw;
+        height: 40vh;
+        background-color: white;
+        border-radius: 3px;
+        }
+
+
+img { width:250px;
+height:250px;
+}
+
+.registre{ display:flex;
+    flex-direction: column;
+}
+.p1{ font-weight: bold;
+color: green;
+font-size: 30px;
+text-align: center;
+padding-top:30px;
+}
+.p2{ 
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom:30px;
+    }
+    
